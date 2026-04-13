@@ -19,7 +19,7 @@ export default function Header() {
         <img 
           src="/logo.svg" 
           alt="Logo Firesport Elite" 
-          className="h-12 w-12 rounded-full border-2 border-white-600 object-cover" // Tady je to kouzlo!
+          className="h-12 w-12 rounded-full border-2 border-red-600 object-cover" // Tady je to kouzlo!
         />
         <a href="/" className="text-xl font-extrabold text-white leading-tight">
           FIRESPORT <span className="text-white-600">ELITE</span>

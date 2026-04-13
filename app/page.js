@@ -16,15 +16,15 @@ export default function Page() {
         <section id="epizody" className="text-center my-16">
           <h2 className="text-8xl font-extrabold mb-1 inline-block">Připrav si něco dobrého k jídlu nebo pití a užij si nejnovější epizodu</h2>
           <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-800 mt-6">
-            <iframe 
-              className="w-full h-full"
-              src={`https://www.youtube.com/embed/${2GbG3zuYXWo}`}
-              title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-            ></iframe>
-          </div>
+  <iframe 
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/2GbG3zuYXWo"
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen
+  ></iframe>
+</div>
         </section>
 
         {/* Sekce Merch */}

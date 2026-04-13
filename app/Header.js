@@ -15,11 +15,11 @@ export default function Header() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#121212]/90 backdrop-blur-md border-b border-[#2a2a2a] py-3 px-6 md:px-12 flex justify-between items-center">
      {/* 1. LOGO SEKCE (VLEVO) */}
       <div className="flex items-center gap-3">
-        {/* TVÉ NAHRANÉ LOGO */}
+        {/* TVÉ NAHRANÉ KULATÉ LOGO */}
         <img 
           src="/logo.svg" 
           alt="Logo Firesport Elite" 
-          className="h-10 w-auto" 
+          className="h-12 w-12 rounded-full border-2 border-red-600 object-cover" // Tady je to kouzlo!
         />
         <a href="/" className="text-xl font-extrabold text-white leading-tight">
           FIRESPORT <span className="text-red-600">ELITE</span>

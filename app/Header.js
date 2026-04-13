@@ -13,12 +13,14 @@ export default function Header() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#121212]/90 backdrop-blur-md border-b border-[#2a2a2a] py-3 px-6 md:px-12 flex justify-between items-center">
-      {/* 1. LOGO SEKCE (VLEVO) */}
+     {/* 1. LOGO SEKCE (VLEVO) */}
       <div className="flex items-center gap-3">
-        {/* Tady můžeš později vyměnit 'img' za své skutečné logo */}
-        <div className="bg-red-600 rounded-full h-9 w-9 flex items-center justify-center">
-          <span className="font-bold text-lg text-white">F</span>
-        </div>
+        {/* TVÉ NAHRANÉ LOGO */}
+        <img 
+          src="/logo.svg" 
+          alt="Logo Firesport Elite" 
+          className="h-10 w-auto" 
+        />
         <a href="/" className="text-xl font-extrabold text-white leading-tight">
           FIRESPORT <span className="text-red-600">ELITE</span>
         </a>

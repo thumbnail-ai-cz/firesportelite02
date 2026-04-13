@@ -22,7 +22,7 @@ export default function Header() {
           className="h-12 w-12 rounded-full border-2 border-red-600 object-cover" // Tady je to kouzlo!
         />
         <a href="/" className="text-xl font-extrabold text-white leading-tight">
-          FIRESPORT <span className="text-white-800">ELITE</span>
+          FIRESPORT <span className="text-white-1000">ELITE</span>
         </a>
       </div>
 

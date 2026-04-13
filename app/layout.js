@@ -1,9 +1,14 @@
+import './globals.css'
+
+export const metadata = {
+  title: 'Hasičský Podcast',
+  description: 'Web o požárním sportu',
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="cs">
-      <body style={{ margin: 0, backgroundColor: 'black', color: 'white', fontFamily: 'sans-serif' }}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }

@@ -1,29 +1,18 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Machine';
-  src: url('/fonts/MACHINEN.TTF') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-:root {
-  --font-machine: 'Machine', sans-serif;
-}
-
-/* Nastavení pro celý web */
-* {
-  font-family: var(--font-machine) !important;
-}
-
 body {
   @apply bg-black text-white;
-  font-family: var(--font-machine);
+  font-family: var(--font-montserrat), sans-serif;
 }
 
-/* Úprava nadpisů pro lepší čitelnost s Machine fontem */
-h1, h2, h3, h4, button, a {
-  text-transform: uppercase;
+/* Bebas Neue nastavíme pro všechno, co má být úderné */
+h1, h2, h3, h4, .font-bebas, nav a, button {
+  font-family: var(--font-bebas), sans-serif;
   letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Zbytek stylů pro zachování designu */
+.logo-kulata {
+  @apply h-12 w-12 rounded-full border-2 border-white object-cover shadow-lg;
 }

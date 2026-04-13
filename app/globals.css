@@ -1,5 +1,29 @@
 @import "tailwindcss";
 
-@theme {
-  /* Tady se dají definovat vlastní barvy, ale pro začátek to nechme prázdné */
+@font-face {
+  font-family: 'Machine';
+  src: url('/fonts/MACHINEN.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-machine: 'Machine', sans-serif;
+}
+
+/* Nastavení pro celý web */
+* {
+  font-family: var(--font-machine) !important;
+}
+
+body {
+  @apply bg-black text-white;
+  font-family: var(--font-machine);
+}
+
+/* Úprava nadpisů pro lepší čitelnost s Machine fontem */
+h1, h2, h3, h4, button, a {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }

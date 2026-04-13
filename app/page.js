@@ -1,23 +1,49 @@
 import React from 'react';
 
 export default function Page() {
-  return (
-    <div style={{ padding: '40px', textAlign: 'center' }}>
-      <h1 style={{ fontSize: '3rem', color: '#e11d48' }}>HASIČSKÝ PODCAST</h1>
-      <p style={{ fontSize: '1.2rem', color: '#9ca3af' }}>Vítejte na našem novém webu o požárním sportu!</p>
-      
-      <div style={{ marginTop: '50px', border: '1px solid #374151', padding: '20px', borderRadius: '15px' }}>
-        <h2>Nejnovější epizoda</h2>
-        <div style={{ aspectRatio: '16/9', backgroundColor: '#1f2937', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          {/* Tady bude tvé YouTube video */}
-          <p>Tady se brzy objeví video z YouTube</p>
-        </div>
-      </div>
+  // Tady si pak můžeš měnit ID videa (to za v=)
+  const latestVideoId = "dQw4w9WgXcQ"; 
 
-      <div style={{ marginTop: '50px' }}>
-        <h2>Náš Merch</h2>
-        <p>Pracujeme na e-shopu s tričky!</p>
-      </div>
+  return (
+    <div className="min-h-screen">
+      {/* Navigace */}
+      <nav className="p-6 flex justify-between items-center border-b border-gray-800">
+        <h1 className="text-2xl font-bold text-red-600">HASIČSKÝ PODCAST</h1>
+        <div className="space-x-4">
+          <a href="#epizody" className="hover:text-red-500">Epizody</a>
+          <a href="#merch" className="hover:text-red-500">Merch</a>
+        </div>
+      </nav>
+
+      {/* Hero sekce s videem */}
+      <main className="max-w-5xl mx-auto p-8">
+        <section className="text-center my-16">
+          <h2 className="text-5xl font-extrabold mb-4">Nejnovější epizoda</h2>
+          <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
+            <iframe 
+              className="w-full h-full"
+              src={`https://www.youtube.com/embed/${latestVideoId}`}
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+
+        {/* Sekce Merch */}
+        <section id="merch" className="my-20">
+          <h3 className="text-3xl font-bold mb-8 border-l-4 border-red-600 pl-4">Náš Merch</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
+              <div className="w-full h-48 bg-gray-800 rounded-lg mb-4 flex items-center justify-center italic text-gray-500">Foto trička</div>
+              <h4 className="text-xl font-bold">Tričko "Proud"</h4>
+              <p className="text-red-500 font-bold my-2">490 Kč</p>
+              <button className="bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-red-600 hover:text-white transition">Koupit</button>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-  )
+  );
 }

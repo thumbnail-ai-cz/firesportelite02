@@ -14,7 +14,7 @@ export default function Page() {
       <main className="max-w-5xl mx-auto p-8 pt-28">
         {/* Hero sekce s videem */}
         <section id="epizody" className="text-center my-16">
-          <h2 className="text-4xl font-extrabold mb-1 border-l-4 border-red-600 pl-4 inline-block">Připrav si něco dobrého k jídlu nebo pití a užij si nejnovější epizodu</h2>
+          <h2 className="text-7xl font-extrabold mb-1 border-l-4 border-red-600 pl-4 inline-block">Připrav si něco dobrého k jídlu nebo pití a užij si nejnovější epizodu</h2>
           <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-800 mt-6">
             <iframe 
               className="w-full h-full"

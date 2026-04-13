@@ -1,25 +1,21 @@
 import React from 'react';
+import Header from './Header'; // Importuje tvůj nový Header
 
 export default function Page() {
   // Tady si pak můžeš měnit ID videa (to za v=)
   const latestVideoId = "dQw4w9WgXcQ"; 
 
   return (
-    <div className="min-h-screen">
-      {/* Navigace */}
-      <nav className="p-6 flex justify-between items-center border-b border-gray-800">
-        <h1 className="text-2xl font-bold text-red-600">HASIČSKÝ PODCAST</h1>
-        <div className="space-x-4">
-          <a href="#epizody" className="hover:text-red-500">Epizody</a>
-          <a href="#merch" className="hover:text-red-500">Merch</a>
-        </div>
-      </nav>
+    <div className="min-h-screen bg-black text-white">
+      {/* Vložíme tvůj nový profi Header */}
+      <Header />
 
-      {/* Hero sekce s videem */}
-      <main className="max-w-5xl mx-auto p-8">
-        <section className="text-center my-16">
-          <h2 className="text-5xl font-extrabold mb-4">Nejnovější epizoda</h2>
-          <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
+      {/* Hlavní obsah stránky (přidáme horní padding, aby Header nic nezakrýval) */}
+      <main className="max-w-5xl mx-auto p-8 pt-28">
+        {/* Hero sekce s videem */}
+        <section id="epizody" className="text-center my-16">
+          <h2 className="text-4xl font-extrabold mb-1 border-l-4 border-red-600 pl-4 inline-block">Nejnovější epizoda</h2>
+          <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-800 mt-6">
             <iframe 
               className="w-full h-full"
               src={`https://www.youtube.com/embed/${latestVideoId}`}

@@ -36,7 +36,7 @@ export default function Header() {
           />
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#505050]" />
         </div>
-        <button className="bg-red-600 text-white px-5 py-2 rounded-full font-bold text-xl hover:bg-red-700 transition leading-tight">
+        <button className="bg-red-600 text-white px-5 py-2 rounded-full font-bold text-lg hover:bg-red-700 transition leading-tight">
           HLEDAT
         </button>
       </div>

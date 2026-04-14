@@ -44,9 +44,12 @@ export default function Page() {
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">02:52:04</span>
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
    </div>
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-4 bg-gray-200">
-                  <img src="https://img.youtube.com/vi/ID_VIDEA_2/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-cover" />
-                </div>
+               <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
+  <img 
+    src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" 
+    alt="Thumbnail" 
+    className="w-full h-full object-contain" 
+  />
 </div>
                 <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase">Název tvé epizody - Host a téma dílu</h4>
               </div>

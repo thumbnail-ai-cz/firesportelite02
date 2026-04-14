@@ -45,8 +45,8 @@ export default function Page() {
             >
               <div>
                 <div className="flex gap-2 mb-4">
-                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#134</span>
-                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">02:52:04</span>
+                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#14</span>
+                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">01:32:33</span>
                 </div>
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
                   <img src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
@@ -70,8 +70,8 @@ export default function Page() {
             >
               <div>
                 <div className="flex gap-2 mb-4">
-                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#133</span>
-                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">01:15:00</span>
+                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#13</span>
+                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">01:07:34</span>
                 </div>
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
                   <img src="https://img.youtube.com/vi/ySon3PIvLx8/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
@@ -95,8 +95,8 @@ export default function Page() {
             >
               <div>
                 <div className="flex gap-2 mb-4">
-                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#132</span>
-                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">00:45:20</span>
+                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#12</span>
+                  <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">01:05:58</span>
                 </div>
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
                   <img src="https://img.youtube.com/vi/TW-iHKnFRwM/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />

@@ -57,7 +57,7 @@ export default function Page() {
                 <div className="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center group-hover:bg-red-700 transition-colors">
                   <div className="w-0 h-0 border-t-[6px] border-t-transparent border-l-[10px] border-l-white border-b-[6px] border-b-transparent ml-1"></div>
                 </div>
-                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Kategorie</span>
+                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Podcast</span>
               </div>
             </a>
 
@@ -82,7 +82,7 @@ export default function Page() {
                 <div className="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center group-hover:bg-red-700 transition-colors">
                   <div className="w-0 h-0 border-t-[6px] border-t-transparent border-l-[10px] border-l-white border-b-[6px] border-b-transparent ml-1"></div>
                 </div>
-                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Trénink</span>
+                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Podcast</span>
               </div>
             </a>
 
@@ -107,7 +107,7 @@ export default function Page() {
                 <div className="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center group-hover:bg-red-700 transition-colors">
                   <div className="w-0 h-0 border-t-[6px] border-t-transparent border-l-[10px] border-l-white border-b-[6px] border-b-transparent ml-1"></div>
                 </div>
-                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Technika</span>
+                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Podcast</span>
               </div>
             </a>
           </div>

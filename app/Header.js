@@ -7,7 +7,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Epizody', href: '#epizody' },
+    { name: 'Epizody', href: '/epizody' }, // Změněno z '#epizody' na '/epizody'
     { name: 'Merch', href: '#merch' },
   ];
 

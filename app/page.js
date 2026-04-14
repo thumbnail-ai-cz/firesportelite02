@@ -30,9 +30,9 @@ export default function Page() {
         <section className="my-20">
           <div className="flex justify-between items-end mb-8">
             <h2 className="text-5xl font-extrabold uppercase">Poslední epizody</h2>
-            <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold">
-              Všechny epizody <span className="text-xl">→</span>
-            </a>
+            <a href="/epizody" className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold">
+  Všechny epizody <span className="text-xl">→</span>
+</a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

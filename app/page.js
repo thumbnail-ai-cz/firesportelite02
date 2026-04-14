@@ -51,7 +51,7 @@ export default function Page() {
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
                   <img src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
                 </div>
-                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase pt-2">Název tvé epizody - Host a téma dílu</h4>
+                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase pt-2">JAKUB PAULÍČEK - HASIČ, ORGANIZÁTOR, TÁTA A MANŽEL I #14</h4>
               </div>
               <div className="flex justify-between items-center mt-4">
                 <div className="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center group-hover:bg-red-700 transition-colors">

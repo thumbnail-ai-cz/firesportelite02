@@ -45,7 +45,7 @@ export default function Page() {
                 </div>
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-4 bg-gray-200">
                   {/* Sem pak dáš náhledový obrázek (thumbnail) */}
-                  <img src="https://img.youtube.com/vi/ID_VIDEA_1/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-cover" />
+                  <img src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-cover" />
                 </div>
                 <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase">Název tvé epizody - Host a téma dílu</h4>
               </div>

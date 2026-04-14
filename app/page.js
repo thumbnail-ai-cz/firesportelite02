@@ -64,7 +64,7 @@ export default function Page() {
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">01:15:00</span>
                 </div>
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
-                  <img src="https://img.youtube.com/vi/2GbG3zuYXWo/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
+                  <img src="https://img.youtube.com/vi/ySon3PIvLx8/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
                 </div>
                 <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase pt-2">Příprava na sezónu - co nepodcenit</h4>
               </div>
@@ -84,7 +84,7 @@ export default function Page() {
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">00:45:20</span>
                 </div>
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
-                  <img src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
+                  <img src="https://img.youtube.com/vi/TW-iHKnFRwM/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
                 </div>
                 <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase pt-2">Technika savic - detaily, co rozhodují</h4>
               </div>

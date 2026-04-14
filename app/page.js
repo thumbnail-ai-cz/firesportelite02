@@ -31,8 +31,8 @@ export default function Page() {
           <div className="flex justify-between items-end mb-8">
             <h2 className="text-5xl font-extrabold uppercase">Poslední epizody</h2>
             <a href="/epizody" className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold">
-  Všechny epizody <span className="text-xl">→</span>
-</a>
+              Všechny epizody <span className="text-xl">→</span>
+            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -42,16 +42,11 @@ export default function Page() {
                 <div className="flex gap-2 mb-4">
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#134</span>
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">02:52:04</span>
+                </div>
                 <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
-   </div>
-               <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
-  <img 
-    src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" 
-    alt="Thumbnail" 
-    className="w-full h-full object-contain" 
-  />
-</div>
-                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase">Název tvé epizody - Host a téma dílu</h4>
+                  <img src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
+                </div>
+                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase pt-2">Název tvé epizody - Host a téma dílu</h4>
               </div>
               <div className="flex justify-between items-center mt-4">
                 <div className="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center">
@@ -68,10 +63,10 @@ export default function Page() {
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#133</span>
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">01:15:00</span>
                 </div>
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-4 bg-gray-200">
-                  <img src="https://img.youtube.com/vi/ID_VIDEA_2/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-cover" />
+                <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
+                  <img src="https://img.youtube.com/vi/2GbG3zuYXWo/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
                 </div>
-                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase">Příprava na sezónu - co nepodcenit</h4>
+                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase pt-2">Příprava na sezónu - co nepodcenit</h4>
               </div>
               <div className="flex justify-between items-center mt-4">
                 <div className="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center">
@@ -88,10 +83,10 @@ export default function Page() {
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">#132</span>
                   <span className="bg-white/80 px-3 py-1 rounded-full text-[10px] font-bold text-gray-500">00:45:20</span>
                 </div>
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-4 bg-gray-200">
-                  <img src="https://img.youtube.com/vi/ID_VIDEA_3/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-cover" />
+                <div className="aspect-video rounded-2xl overflow-hidden mb-4 bg-black shadow-sm">
+                  <img src="https://img.youtube.com/vi/p6LqTGneZno/maxresdefault.jpg" alt="Thumbnail" className="w-full h-full object-contain" />
                 </div>
-                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase">Technika savic - detaily, co rozhodují</h4>
+                <h4 className="font-bebas text-2xl leading-tight mb-2 uppercase pt-2">Technika savic - detaily, co rozhodují</h4>
               </div>
               <div className="flex justify-between items-center mt-4">
                 <div className="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center">

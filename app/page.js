@@ -31,7 +31,7 @@ export default function Page() {
           <div className="flex justify-between items-end mb-8">
             <h2 className="text-5xl font-extrabold uppercase">Poslední epizody</h2>
             <a href="/epizody" className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold">
-              Všechny epizody <span className="text-xl">→</span>
+              zobrazit Všechny epizody <span className="text-xl">→</span>
             </a>
           </div>
 
@@ -121,7 +121,7 @@ export default function Page() {
               href="/merch" // Odkaz na novou stránku
               className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold"
             >
-              Celý obchod <span className="text-xl">→</span>
+              zobrazit Všechny položky <span className="text-xl">→</span>
             </a>
           </div>
           

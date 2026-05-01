@@ -7,8 +7,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Epizody', href: '/epizody' }, // Změněno z '#epizody' na '/epizody'
-    { name: 'Merch', href: '#merch' },
+    { name: 'Epizody', href: '/epizody' },
+    { name: 'Merch', href: '/merch' }, // OPRAVENO: Z '#merch' na '/merch'
   ];
 
   return (

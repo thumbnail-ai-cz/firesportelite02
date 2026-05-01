@@ -118,7 +118,7 @@ export default function Page() {
           <div className="flex justify-between items-end mb-12">
             <h3 className="text-5xl font-extrabold uppercase">Náš Merch</h3>
             <a href="/merch" className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold">
-              Celý obchod <span className="text-xl">→</span>
+              Včechny položky <span className="text-xl">→</span>
             </a>
           </div>
           

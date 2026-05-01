@@ -113,9 +113,14 @@ export default function Page() {
           </div>
         </section>
   
-        {/* Sekce Merch */}
+   {/* Sekce Merch */}
         <section id="merch" className="my-20">
-          <h3 className="text-5xl font-extrabold mb-12 uppercase">Merch</h3>
+          <div className="flex justify-between items-end mb-12">
+            <h3 className="text-5xl font-extrabold uppercase">Náš Merch</h3>
+            <a href="/merch" className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold">
+              Celý obchod <span className="text-xl">→</span>
+            </a>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             

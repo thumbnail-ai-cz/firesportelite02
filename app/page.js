@@ -116,7 +116,7 @@ export default function Page() {
    {/* Sekce Merch */}
        <section id="merch" className="my-20">
           <div className="flex justify-between items-end mb-12">
-            <h3 className="text-5xl font-extrabold uppercase">Náš Merch</h3>
+            <h3 className="text-5xl font-extrabold uppercase">Merch</h3>
             <a 
               href="/merch" // Odkaz na novou stránku
               className="text-gray-400 hover:text-white transition flex items-center gap-2 uppercase text-sm font-bold"

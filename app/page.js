@@ -155,8 +155,6 @@ export default function Page() {
                 Koupit
               </button>
             </div>
-
-          </div>
         </section>
   );
 }

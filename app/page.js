@@ -154,8 +154,8 @@ export default function Page() {
               <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit
               </button>
-            </div> {/* <-- Tohle div ti tam chybělo */}
-          </div> {/* <-- Uzavírá grid */}
+            </div>
+          </div>
         </section>
       </main>
     </div>

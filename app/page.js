@@ -144,7 +144,7 @@ export default function Page() {
               </button>
             </div>
 
-            {/* POLOŽKA 3 */}
+      {/* POLOŽKA 3 */}
             <div className="bg-gray-900/50 p-6 rounded-[2rem] border border-gray-800 text-center hover:border-red-600 transition-colors group">
               <div className="w-full aspect-square bg-gray-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
                 <span className="italic text-gray-500 uppercase text-xs tracking-widest group-hover:scale-110 transition-transform">Foto kšiltovky</span>
@@ -154,7 +154,9 @@ export default function Page() {
               <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit
               </button>
-    </section>
+            </div> {/* <-- Tohle div ti tam chybělo */}
+          </div> {/* <-- Uzavírá grid */}
+        </section>
       </main>
     </div>
   );

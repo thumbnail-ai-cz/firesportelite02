@@ -115,7 +115,7 @@ export default function Page() {
   
         {/* Sekce Merch */}
         <section id="merch" className="my-20">
-          <h3 className="text-5xl font-extrabold mb-12 uppercase">Náš Merch</h3>
+          <h3 className="text-5xl font-extrabold mb-12 uppercase">Merch</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
@@ -125,7 +125,7 @@ export default function Page() {
                 {/* Sem pak vložíš fotku: <img src="/tricko-proud.jpg" className="w-full h-full object-cover" /> */}
                 <span className="italic text-gray-500 uppercase text-xs tracking-widest group-hover:scale-110 transition-transform">Foto trička</span>
               </div>
-              <h4 className="text-2xl font-bold uppercase tracking-tight">Tričko "Proud"</h4>
+              <h4 className="text-2xl font-bold uppercase tracking-tight">funkční tričko</h4>
               <p className="text-red-600 font-bebas text-3xl my-3 tracking-wider">490 Kč</p>
               <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit
@@ -137,7 +137,7 @@ export default function Page() {
               <div className="w-full aspect-square bg-gray-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
                 <span className="italic text-gray-500 uppercase text-xs tracking-widest group-hover:scale-110 transition-transform">Foto mikiny</span>
               </div>
-              <h4 className="text-2xl font-bold uppercase tracking-tight">Mikina "Elite"</h4>
+              <h4 className="text-2xl font-bold uppercase tracking-tight">mikina s kapucí</h4>
               <p className="text-red-600 font-bebas text-3xl my-3 tracking-wider">1 190 Kč</p>
               <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit
@@ -149,7 +149,7 @@ export default function Page() {
               <div className="w-full aspect-square bg-gray-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
                 <span className="italic text-gray-500 uppercase text-xs tracking-widest group-hover:scale-110 transition-transform">Foto kšiltovky</span>
               </div>
-              <h4 className="text-2xl font-bold uppercase tracking-tight">Kšiltovka "Firesport"</h4>
+              <h4 className="text-2xl font-bold uppercase tracking-tight">Kšiltovka</h4>
               <p className="text-red-600 font-bebas text-3xl my-3 tracking-wider">550 Kč</p>
               <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit

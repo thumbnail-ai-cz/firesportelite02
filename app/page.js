@@ -115,17 +115,48 @@ export default function Page() {
   
         {/* Sekce Merch */}
         <section id="merch" className="my-20">
-          <h3 className="text-3xl font-bold mb-8 border-l-4 border-red-600 pl-4">Merch</h3>
+          <h3 className="text-5xl font-extrabold mb-12 uppercase">Náš Merch</h3>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
-              <div className="w-full h-48 bg-gray-800 rounded-lg mb-4 flex items-center justify-center italic text-gray-500">Foto trička</div>
-              <h4 className="text-xl font-bold">Tričko "Proud"</h4>
-              <p className="text-red-500 font-bold my-2">490 Kč</p>
-              <button className="bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-red-600 hover:text-white transition">Koupit</button>
+            
+            {/* POLOŽKA 1 */}
+            <div className="bg-gray-900/50 p-6 rounded-[2rem] border border-gray-800 text-center hover:border-red-600 transition-colors group">
+              <div className="w-full aspect-square bg-gray-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
+                {/* Sem pak vložíš fotku: <img src="/tricko-proud.jpg" className="w-full h-full object-cover" /> */}
+                <span className="italic text-gray-500 uppercase text-xs tracking-widest group-hover:scale-110 transition-transform">Foto trička</span>
+              </div>
+              <h4 className="text-2xl font-bold uppercase tracking-tight">Tričko "Proud"</h4>
+              <p className="text-red-600 font-bebas text-3xl my-3 tracking-wider">490 Kč</p>
+              <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
+                Koupit
+              </button>
             </div>
+
+            {/* POLOŽKA 2 */}
+            <div className="bg-gray-900/50 p-6 rounded-[2rem] border border-gray-800 text-center hover:border-red-600 transition-colors group">
+              <div className="w-full aspect-square bg-gray-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
+                <span className="italic text-gray-500 uppercase text-xs tracking-widest group-hover:scale-110 transition-transform">Foto mikiny</span>
+              </div>
+              <h4 className="text-2xl font-bold uppercase tracking-tight">Mikina "Elite"</h4>
+              <p className="text-red-600 font-bebas text-3xl my-3 tracking-wider">1 190 Kč</p>
+              <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
+                Koupit
+              </button>
+            </div>
+
+            {/* POLOŽKA 3 */}
+            <div className="bg-gray-900/50 p-6 rounded-[2rem] border border-gray-800 text-center hover:border-red-600 transition-colors group">
+              <div className="w-full aspect-square bg-gray-800 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
+                <span className="italic text-gray-500 uppercase text-xs tracking-widest group-hover:scale-110 transition-transform">Foto kšiltovky</span>
+              </div>
+              <h4 className="text-2xl font-bold uppercase tracking-tight">Kšiltovka "Firesport"</h4>
+              <p className="text-red-600 font-bebas text-3xl my-3 tracking-wider">550 Kč</p>
+              <button className="w-full bg-white text-black py-3 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
+                Koupit
+              </button>
+            </div>
+
           </div>
         </section>
-      </main>
-    </div>
   );
 }

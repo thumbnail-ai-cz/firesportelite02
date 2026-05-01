@@ -115,7 +115,7 @@ export default function Page() {
   
         {/* Sekce Merch */}
         <section id="merch" className="my-20">
-          <h3 className="text-3xl font-bold mb-8 border-l-4 border-red-600 pl-4">Merch firesprot elite</h3>
+          <h3 className="text-3xl font-bold mb-8 border-l-4 border-red-600 pl-4">Merch</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
               <div className="w-full h-48 bg-gray-800 rounded-lg mb-4 flex items-center justify-center italic text-gray-500">Foto trička</div>

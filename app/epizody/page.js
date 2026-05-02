@@ -5,7 +5,7 @@ export default function EpizodyPage() {
 const vsechnyEpizody = [
     { id: "2GbG3zuYXWo", title: "PŘÍBĚH LEGENDÁRNÍ DHZ ZBORY - MARTIN BEHRO & TOMÁŠ KUCHTA", duration: "02:22:23", label: "#15", cat: "on-line podcast" },
     { id: "p6LqTGneZno", title: "JAKUB PAULÍČEK - HASIČ, ORGANIZÁTOR, TÁTA A MANŽEL", duration: "01:32:33", label: "#14", cat: "studio podcast" },
-    { id: "ySon3PIvLx8", title: ""MĚL JSEM NABÍDKY I NA EXTRALIGU, ALE ŽERNOVICE JSOU SRDCOVKA"", duration: "01:07:34", label: "#13", cat: "studio podcast" },
+    { id: "ySon3PIvLx8", title: "MĚL JSEM NABÍDKY I NA EXTRALIGU, ALE ŽERNOVICE JSOU SRDCOVKA", duration: "01:07:34", label: "#13", cat: "studio podcast" },
     { id: "2GbG3zuYXWo", title: "PSYCHOLOGIE V POŽÁRNÍM SPORTU", duration: "00:58:10", label: "#131", cat: "MENTÁLNÍ" },
     { id: "p6LqTGneZno", title: "ROZHOVOR: MISTŘI SVĚTA V ÚTOKU", duration: "01:30:15", label: "#130", cat: "ROZHOVOR" },
     { id: "2GbG3zuYXWo", title: "JAK VYBRAT SPRÁVNOU MAŠINU", duration: "01:10:00", label: "#129", cat: "VYBAVENÍ" },

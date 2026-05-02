@@ -39,12 +39,14 @@ export default function MerchPage() {
               key={index} 
               className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center transition-all hover:scale-[1.02] hover:border-red-600/50 shadow-2xl"
             >
-              {/* Šedý box pro fotku */}
-              <div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden">
-                <span className="italic text-gray-500 uppercase text-xs tracking-[0.2em] font-medium opacity-50">
-                  {product.label}
-                </span>
-              </div>
+              {/* Box pro fotku - nyní s reálným obrázkem */}
+<div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden border border-gray-800">
+  <img 
+    src={product.image} 
+    alt={product.name} 
+    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" 
+  />
+</div>
 
               {/* Název produktu */}
               <h4 className="text-2xl font-black uppercase tracking-tight mb-2">

@@ -7,17 +7,17 @@ export default function MerchPage() {
  const products = [
     { 
       name: 'FUNKČNÍ TRIČKO', 
-      price: '490 KČ', 
+      price: '669 KČ', 
       image: '/tricko.jpg' // Cesta začíná lomítkem, což znamená složku public
     },
     { 
       name: 'MIKINA S KAPUCÍ', 
-      price: '1 190 KČ', 
+      price: '1 169 KČ', 
       image: '/mikina.jpg' 
     },
     { 
       name: 'KŠILTOVKA', 
-      price: '550 KČ', 
+      price: '469 KČ', 
       image: '/ksiltovka.jpg' 
     },
   ];

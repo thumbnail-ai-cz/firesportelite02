@@ -136,7 +136,7 @@ export default function Page() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                 />
               </div>
-              <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Funkční tričko</h4>
+              <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Funkční tričko s názvem týmu</h4>
               <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">490 Kč</p>
               <button className="w-full bg-white text-black py-4 rounded-full font-black hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit

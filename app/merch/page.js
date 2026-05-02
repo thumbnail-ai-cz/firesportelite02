@@ -7,7 +7,7 @@ export default function MerchPage() {
  const products = [
     { 
       name: 'FUNKČNÍ TRIČKO', 
-      price: '669 KČ', 
+      price: '699 KČ', 
       image: '/tricko.jpg' // Cesta začíná lomítkem, což znamená složku public
     },
     { 

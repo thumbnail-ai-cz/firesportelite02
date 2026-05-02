@@ -137,7 +137,7 @@ export default function Page() {
                 />
               </div>
               <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Funkční tričko s názvem</h4>
-              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">699 Kč + DPH</p>
+              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">699 Kč</p>
               <button className="w-full bg-white text-black py-4 rounded-full font-black hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit
               </button>
@@ -153,7 +153,7 @@ export default function Page() {
                 />
               </div>
               <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Mikina s kapucí</h4>
-              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">1 169 Kč bez DPH</p>
+              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">1 169 Kč</p>
               <button className="w-full bg-white text-black py-4 rounded-full font-black hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit
               </button>
@@ -169,7 +169,7 @@ export default function Page() {
                 />
               </div>
               <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Kšiltovka</h4>
-              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">469 Kč bez DPH</p>
+              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">469 Kč</p>
               <button className="w-full bg-white text-black py-4 rounded-full font-black hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
                 Koupit
               </button>

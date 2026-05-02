@@ -4,10 +4,22 @@ import React from 'react';
 import Header from '../Header';
 
 export default function MerchPage() {
-  const products = [
-    { name: 'FUNKČNÍ TRIČKO', price: '490 KČ', label: 'FOTO TRIČKA' },
-    { name: 'MIKINA S KAPUCÍ', price: '1 190 KČ', label: 'FOTO MIKINY' },
-    { name: 'KŠILTOVKA', price: '550 KČ', label: 'FOTO KŠILTOVKY' },
+ const products = [
+    { 
+      name: 'FUNKČNÍ TRIČKO', 
+      price: '490 KČ', 
+      image: '/tricko.jpg' // Cesta začíná lomítkem, což znamená složku public
+    },
+    { 
+      name: 'MIKINA S KAPUCÍ', 
+      price: '1 190 KČ', 
+      image: '/mikina.jpg' 
+    },
+    { 
+      name: 'KŠILTOVKA', 
+      price: '550 KČ', 
+      image: '/ksiltovka.jpg' 
+    },
   ];
 
   return (

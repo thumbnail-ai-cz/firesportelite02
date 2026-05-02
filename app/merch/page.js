@@ -28,8 +28,8 @@ export default function MerchPage() {
 
       <main className="max-w-6xl mx-auto p-8 pt-32">
         <header className="mb-16 text-center">
-          <h1 className="text-6xl font-extrabold uppercase mb-4 tracking-tighter">Náš Merch</h1>
-          <p className="text-gray-500 uppercase tracking-widest text-sm">Vybavení pro ty nejlepší</p>
+          <h1 className="text-6xl font-extrabold uppercase mb-4 tracking-tighter">Merch firesport elite</h1>
+          <p className="text-gray-500 uppercase tracking-widest text-sm">Nákupem podpoříte mou tvorbu a pomůžete mi šířit povědomí o požárním sportu</p>
         </header>
 
         {/* GRID S PRODUKTY - PŘESNĚ PODLE TVÉHO NÁVRHU */}

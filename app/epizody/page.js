@@ -2,20 +2,25 @@ import Header from '../Header';
 
 export default function EpizodyPage() {
   // Seznam tvých epizod - celkem 12 položek pro bohatý archiv
-  const vsechnyEpizody = [
+const vsechnyEpizody = [
     { id: "p6LqTGneZno", title: "NÁZEV EPIZODY 134 - HOST A TÉMA", duration: "02:52:04", label: "#134", cat: "BUSINESS" },
     { id: "2GbG3zuYXWo", title: "PŘÍPRAVA NA SEZÓNU - CO NEPODCENIT", duration: "01:15:00", label: "#133", cat: "TRÉNINK" },
     { id: "p6LqTGneZno", title: "TECHNIKA SAVIC - DETAILY, CO ROZHODUJÍ", duration: "00:45:20", label: "#132", cat: "TECHNIKA" },
     { id: "2GbG3zuYXWo", title: "PSYCHOLOGIE V POŽÁRNÍM SPORTU", duration: "00:58:10", label: "#131", cat: "MENTÁLNÍ" },
     { id: "p6LqTGneZno", title: "ROZHOVOR: MISTŘI SVĚTA V ÚTOKU", duration: "01:30:15", label: "#130", cat: "ROZHOVOR" },
     { id: "2GbG3zuYXWo", title: "JAK VYBRAT SPRÁVNOU MAŠINU", duration: "01:10:00", label: "#129", cat: "VYBAVENÍ" },
-    // Nových 6 rámečků:
     { id: "p6LqTGneZno", title: "STRAVA A REGENERACE ELITNÍCH HASIČŮ", duration: "00:52:30", label: "#128", cat: "ZDRAVÍ" },
     { id: "2GbG3zuYXWo", title: "HISTORIE FIRESPORTU V ČESKU", duration: "01:45:00", label: "#127", cat: "HISTORIE" },
     { id: "p6LqTGneZno", title: "ROZHOVOR S ROZHODČÍM: CO SE PÍSKÁ?", duration: "00:40:10", label: "#126", cat: "PRAVIDLA" },
     { id: "2GbG3zuYXWo", title: "ŽENSKÝ POŽÁRNÍ SPORT NA VZESTUPU", duration: "01:05:40", label: "#125", cat: "ROZHOVOR" },
     { id: "p6LqTGneZno", title: "FYZICKÉ TESTY: JAK JSOU NA TOM ELITY?", duration: "01:22:00", label: "#124", cat: "TRÉNINK" },
     { id: "2GbG3zuYXWo", title: "ZÁKULISÍ NEJVĚTŠÍCH ZÁVODŮ", duration: "02:10:15", label: "#123", cat: "ZÁKULISÍ" },
+    // Nových 5 rámečků:
+    { id: "p6LqTGneZno", title: "MLÁDEŽ A POŽÁRNÍ SPORT", duration: "00:35:50", label: "#122", cat: "JUNIORS" },
+    { id: "2GbG3zuYXWo", title: "ROZHOVOR: STAVITELÉ TRATÍ", duration: "01:05:00", label: "#121", cat: "ZÁKULISÍ" },
+    { id: "p6LqTGneZno", title: "JAK PŘIPRAVIT HADICE NA REKORD", duration: "00:25:40", label: "#120", cat: "TECHNIKA" },
+    { id: "2GbG3zuYXWo", title: "MOTIVACE A TÝMOVÝ DUCH", duration: "01:40:20", label: "#119", cat: "MENTÁLNÍ" },
+    { id: "p6LqTGneZno", title: "ZIMNÍ PŘÍPRAVA V TĚLOCVIČNĚ", duration: "00:55:00", label: "#118", cat: "TRÉNINK" },
   ];
 
   return (

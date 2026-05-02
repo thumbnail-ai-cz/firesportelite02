@@ -69,7 +69,7 @@ export default function MerchPage() {
         {/* Info box dole */}
         <footer className="mt-20 py-10 border-t border-gray-900 text-center">
           <p className="text-gray-600 text-sm uppercase tracking-widest">
-            Všechny ceny jsou včetně DPH • Doprava od 1500 Kč zdarma
+            Všechny ceny jsou bez DPH • Doprava je zahrnuta v ceně
           </p>
         </footer>
       </main>

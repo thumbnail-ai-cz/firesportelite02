@@ -3,8 +3,7 @@ import Header from '../Header';
 export default function EpizodyPage() {
   // Seznam tvých epizod - celkem 12 položek pro bohatý archiv
 const vsechnyEpizody = [
-    { id: "2GbG3zuYXWo", title: "
-PŘÍBĚH LEGENDÁRNÍ DHZ ZBORY - MARTIN BEHRO & TOMÁŠ KUCHTA", duration: "02:22:23", label: "#15", cat: "podcast" },
+    { id: "2GbG3zuYXWo", title: "PŘÍBĚH LEGENDÁRNÍ DHZ ZBORY - MARTIN BEHRO & TOMÁŠ KUCHTA", duration: "02:22:23", label: "#15", cat: "podcast" },
     { id: "2GbG3zuYXWo", title: "PŘÍPRAVA NA SEZÓNU - CO NEPODCENIT", duration: "01:15:00", label: "#133", cat: "TRÉNINK" },
     { id: "p6LqTGneZno", title: "TECHNIKA SAVIC - DETAILY, CO ROZHODUJÍ", duration: "00:45:20", label: "#132", cat: "TECHNIKA" },
     { id: "2GbG3zuYXWo", title: "PSYCHOLOGIE V POŽÁRNÍM SPORTU", duration: "00:58:10", label: "#131", cat: "MENTÁLNÍ" },

@@ -7,7 +7,7 @@ const vsechnyEpizody = [
     { id: "p6LqTGneZno", title: "JAKUB PAULÍČEK - HASIČ, ORGANIZÁTOR, TÁTA A MANŽEL", duration: "01:32:33", label: "#14", cat: "studio podcast" },
     { id: "ySon3PIvLx8", title: "MĚL JSEM NABÍDKY I NA EXTRALIGU, ALE ŽERNOVICE JSOU SRDCOVKA", duration: "01:07:34", label: "#13", cat: "studio podcast" },
     { id: "WcTlrSw4Nhc", title: "CO SE DĚLO 6.12.2025 V ČESKÉM RUDOLCI?", duration: "00:14:16", label: "#12", cat: "aftermovie" },
-    { id: "p6LqTGneZno", title: "ROZHOVOR: MISTŘI SVĚTA V ÚTOKU", duration: "01:30:15", label: "#130", cat: "ROZHOVOR" },
+    { id: "TW-iHKnFRwM", title: "PŘÍBĚH 10ti NÁSOBNÉHO MISTRA ČR, Vít Vymazal 🔥", duration: "01:05:58", label: "#11", cat: "podcast" },
     { id: "2GbG3zuYXWo", title: "JAK VYBRAT SPRÁVNOU MAŠINU", duration: "01:10:00", label: "#129", cat: "VYBAVENÍ" },
     { id: "p6LqTGneZno", title: "STRAVA A REGENERACE ELITNÍCH HASIČŮ", duration: "00:52:30", label: "#128", cat: "ZDRAVÍ" },
     { id: "2GbG3zuYXWo", title: "HISTORIE FIRESPORTU V ČESKU", duration: "01:45:00", label: "#127", cat: "HISTORIE" },

@@ -30,7 +30,7 @@ const vsechnyEpizody = [
       <main className="max-w-6xl mx-auto p-8 pt-32">
         <div className="mb-12">
           <h1 className="text-6xl font-extrabold uppercase mb-2 italic">Archiv Epizod</h1>
-          <p className="text-red-600 font-bold tracking-widest text-sm uppercase">Firesport Elite Podcast</p>
+          <p className="text-red-600 font-bold tracking-widest text-sm uppercase">Firesport Elite</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -14,7 +14,7 @@ const vsechnyEpizody = [
     { id: "3UPnWRtxgQ0", title: "Dodnes máme s týmem odjeto cca 900 závodů po celé ČR a míříme na 1 000, říká Petr Skala", duration: "01:04:32", label: "#9", cat: "podcast" },
     { id: "ePW6kZT6AVw", title: "Na Mistrovství světa v Rusku se mi líbilo nejvíc, říká Káťa Vébrová", duration: "01:03:40", label: "#8", cat: "podcast" },
     { id: "ARkaGp2YayE", title: "Titul v Extralize z roku 2020 nám předpověděla kartářka, říká Lůů Možíšová ", duration: "01:53:23", label: "#7", cat: "podcast" },
-    { id: "Q2F4pA5sICU&t=3708s", title: "Posledních 6 let v požárním sportu byly nejlepší roky mého života, říká Jana Šípková", duration: "01:03:54", label: "#6", cat: "podcast" },
+    { id: "Q2F4pA5sICU", title: "Posledních 6 let v požárním sportu byly nejlepší roky mého života, říká Jana Šípková", duration: "01:03:54", label: "#6", cat: "podcast" },
     { id: "hA0BokaX_bs", title: "NEUVĚŘITELNÉ! Co předcházelo vítězství ve Slovenském Superpoháru?, prozradí Tadeáš Majvald", duration: "01:06:20", label: "#5", cat: "podcast" },
     { id: "v5BPwbl_WmA", title: "Sezóna 2025 bude jedna velká divočina, říká Kája Šulcová ", duration: "00:22:20", label: "#4", cat: "podcast" },
     { id: "9c_XOEE90_U", title: "ŠOKUJÍCÍ ODHALENÍ! Jaká je budoucnost týmu Krotějov Sport?, Fanda Janů", duration: "00:27:06", label: "#3", cat: "podcast" },

@@ -3,7 +3,7 @@ import Header from '../Header';
 export default function EpizodyPage() {
   // Seznam tvých epizod - celkem 12 položek pro bohatý archiv
 const vsechnyEpizody = [
-    { id: "2GbG3zuYXWo", title: "PŘÍBĚH LEGENDÁRNÍ DHZ ZBORY - MARTIN BEHRO & TOMÁŠ KUCHTA", duration: "02:22:23", label: "#17", cat: "on-line podcast" }
+    { id: "2GbG3zuYXWo", title: "PŘÍBĚH LEGENDÁRNÍ DHZ ZBORY - MARTIN BEHRO & TOMÁŠ KUCHTA", duration: "02:22:23", label: "#17", cat: "on-line podcast" },
     { id: "2GbG3zuYXWo", title: "PŘÍBĚH LEGENDÁRNÍ DHZ ZBORY - MARTIN BEHRO & TOMÁŠ KUCHTA", duration: "02:22:23", label: "#17", cat: "on-line podcast" },
     { id: "p6LqTGneZno", title: "JAKUB PAULÍČEK - HASIČ, ORGANIZÁTOR, TÁTA A MANŽEL", duration: "01:32:33", label: "#16", cat: "studio podcast" },
     { id: "ySon3PIvLx8", title: "MĚL JSEM NABÍDKY I NA EXTRALIGU, ALE ŽERNOVICE JSOU SRDCOVKA", duration: "01:07:34", label: "#15", cat: "studio podcast" },

@@ -15,7 +15,6 @@ const vsechnyEpizody = [
     { id: "ePW6kZT6AVw", title: "Na Mistrovství světa v Rusku se mi líbilo nejvíc, říká Káťa Vébrová", duration: "01:03:40", label: "#6", cat: "podcast" },
     { id: "ARkaGp2YayE", title: "Titul v Extralize z roku 2020 nám předpověděla kartářka, říká Lůů Možíšová ", duration: "01:53:23", label: "#5", cat: "podcast" },
     { id: "Q2F4pA5sICU&t=3708s", title: "Posledních 6 let v požárním sportu byly nejlepší roky mého života, říká Jana Šípková", duration: "01:03:54", label: "#4", cat: "podcast" },
-    // Nových 5 rámečků:
     { id: "p6LqTGneZno", title: "MLÁDEŽ A POŽÁRNÍ SPORT", duration: "00:35:50", label: "#122", cat: "JUNIORS" },
     { id: "2GbG3zuYXWo", title: "ROZHOVOR: STAVITELÉ TRATÍ", duration: "01:05:00", label: "#121", cat: "ZÁKULISÍ" },
     { id: "p6LqTGneZno", title: "JAK PŘIPRAVIT HADICE NA REKORD", duration: "00:25:40", label: "#120", cat: "TECHNIKA" },

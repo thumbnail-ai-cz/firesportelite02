@@ -12,9 +12,9 @@ const vsechnyEpizody = [
     { id: "Y9FYu6omTQg", title: "NEJPOPULÁRNĚJŠÍ AKCE V POŽÁRNÍM ÚTOKU NA SVĚTĚ - FLÍDR CUP 2025 🏆", duration: "00:22:44", label: "#9", cat: "aftermovie" },
     { id: "ue4aHwL5BQ0", title: "Jaký je skutečný důvod neúčasti Zdendy Kalouse na letošním Mistrovství Evropy v PÚ? 😮", duration: "01:17:44", label: "#8", cat: "podcast" },
     { id: "3UPnWRtxgQ0", title: "Dodnes máme s týmem odjeto cca 900 závodů po celé ČR a míříme na 1 000, říká Petr Skala", duration: "01:04:32", label: "#7", cat: "podcast" },
-    { id: "2GbG3zuYXWo", title: "ŽENSKÝ POŽÁRNÍ SPORT NA VZESTUPU", duration: "01:05:40", label: "#125", cat: "ROZHOVOR" },
-    { id: "p6LqTGneZno", title: "FYZICKÉ TESTY: JAK JSOU NA TOM ELITY?", duration: "01:22:00", label: "#124", cat: "TRÉNINK" },
-    { id: "2GbG3zuYXWo", title: "ZÁKULISÍ NEJVĚTŠÍCH ZÁVODŮ", duration: "02:10:15", label: "#123", cat: "ZÁKULISÍ" },
+    { id: "ePW6kZT6AVw", title: "Na Mistrovství světa v Rusku se mi líbilo nejvíc, říká Káťa Vébrová", duration: "01:03:40", label: "#6", cat: "podcast" },
+    { id: "ARkaGp2YayE", title: "Titul v Extralize z roku 2020 nám předpověděla kartářka, říká Lůů Možíšová ", duration: "01:53:23", label: "#5", cat: "podcast" },
+    { id: "Q2F4pA5sICU&t=3708s", title: "Posledních 6 let v požárním sportu byly nejlepší roky mého života, říká Jana Šípková", duration: "01:03:54", label: "#4", cat: "podcast" },
     // Nových 5 rámečků:
     { id: "p6LqTGneZno", title: "MLÁDEŽ A POŽÁRNÍ SPORT", duration: "00:35:50", label: "#122", cat: "JUNIORS" },
     { id: "2GbG3zuYXWo", title: "ROZHOVOR: STAVITELÉ TRATÍ", duration: "01:05:00", label: "#121", cat: "ZÁKULISÍ" },

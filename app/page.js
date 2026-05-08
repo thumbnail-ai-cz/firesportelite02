@@ -152,7 +152,7 @@ export default function Page() {
 
            {/* POLOŽKA 2 - Mikina */}
             <a 
-              href="https://buy.stripe.com/SEM_VLOZ_TVUJ_STRIPE_LINK_PRO_MIKINU" 
+              href="https://buy.stripe.com/3cI5kCgH63VW6J7grG9AA07" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="group block"
@@ -175,7 +175,7 @@ export default function Page() {
 
            {/* POLOŽKA 3 - Kšiltovka */}
             <a 
-              href="https://buy.stripe.com/SEM_VLOZ_TVUJ_STRIPE_LINK_PRO_KSILTOVKU" 
+              href="https://buy.stripe.com/aFa7sKfD2dwwebz5N29AA08" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="group block"

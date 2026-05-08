@@ -150,37 +150,51 @@ export default function Page() {
               </div>
             </a>
 
-            {/* POLOŽKA 2 - Mikina */}
-            <div className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center hover:border-red-600/50 transition-all group">
-              <div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden border border-gray-800">
-                <img 
-                  src="/mikina.jpg" 
-                  alt="Mikina s kapucí" 
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
-                />
+           {/* POLOŽKA 2 - Mikina */}
+            <a 
+              href="https://buy.stripe.com/SEM_VLOZ_TVUJ_STRIPE_LINK_PRO_MIKINU" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group block"
+            >
+              <div className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center hover:border-red-600/50 transition-all shadow-2xl">
+                <div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden border border-gray-800">
+                  <img 
+                    src="/mikina.jpg" 
+                    alt="Mikina s kapucí" 
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                  />
+                </div>
+                <h4 className="text-2xl font-black uppercase tracking-tight mb-2 text-white">Mikina s kapucí</h4>
+                <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">1 169 Kč</p>
+                <div className="w-full bg-white text-black py-4 rounded-full font-black group-hover:bg-red-600 group-hover:text-white transition-all uppercase tracking-widest text-sm text-center">
+                  Koupit
+                </div>
               </div>
-              <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Mikina s kapucí</h4>
-              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">1 169 Kč</p>
-              <button className="w-full bg-white text-black py-4 rounded-full font-black hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
-                Koupit
-              </button>
-            </div>
+            </a>
 
-            {/* POLOŽKA 3 - Kšiltovka */}
-            <div className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center hover:border-red-600/50 transition-all group">
-              <div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden border border-gray-800">
-                <img 
-                  src="/ksiltovka.jpg" 
-                  alt="Kšiltovka" 
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
-                />
+           {/* POLOŽKA 3 - Kšiltovka */}
+            <a 
+              href="https://buy.stripe.com/SEM_VLOZ_TVUJ_STRIPE_LINK_PRO_KSILTOVKU" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group block"
+            >
+              <div className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center hover:border-red-600/50 transition-all shadow-2xl">
+                <div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden border border-gray-800">
+                  <img 
+                    src="/ksiltovka.jpg" 
+                    alt="Kšiltovka" 
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                  />
+                </div>
+                <h4 className="text-2xl font-black uppercase tracking-tight mb-2 text-white">Kšiltovka</h4>
+                <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">469 Kč</p>
+                <div className="w-full bg-white text-black py-4 rounded-full font-black group-hover:bg-red-600 group-hover:text-white transition-all uppercase tracking-widest text-sm text-center">
+                  Koupit
+                </div>
               </div>
-              <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Kšiltovka</h4>
-              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">469 Kč</p>
-              <button className="w-full bg-white text-black py-4 rounded-full font-black hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
-                Koupit
-              </button>
-            </div>
+            </a>
           </div>
         </section>
       </main>

@@ -127,21 +127,28 @@ export default function Page() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
-            {/* POLOŽKA 1 - Tričko */}
-            <div className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center hover:border-red-600/50 transition-all group">
-              <div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden border border-gray-800">
-                <img 
-                  src="/tricko.jpg" 
-                  alt="Funkční tričko" 
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
-                />
+           {/* POLOŽKA 1 - Tričko */}
+            <a 
+              href="https://buy.stripe.com/7sYaEW3UkfEEffD3EU9AA06" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group block"
+            >
+              <div className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center hover:border-red-600/50 transition-all shadow-2xl">
+                <div className="w-full aspect-square bg-[#1a1d23] rounded-[2rem] mb-8 flex items-center justify-center overflow-hidden border border-gray-800">
+                  <img 
+                    src="/tricko.jpg" 
+                    alt="Funkční tričko" 
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                  />
+                </div>
+                <h4 className="text-2xl font-black uppercase tracking-tight mb-2 text-white">Funkční tričko s názvem</h4>
+                <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">699 Kč</p>
+                <div className="w-full bg-white text-black py-4 rounded-full font-black group-hover:bg-red-600 group-hover:text-white transition-all uppercase tracking-widest text-sm text-center">
+                  Koupit
+                </div>
               </div>
-              <h4 className="text-2xl font-black uppercase tracking-tight mb-2">Funkční tričko s názvem</h4>
-              <p className="text-red-600 font-black text-3xl mb-8 tracking-wider">699 Kč</p>
-              <button className="w-full bg-white text-black py-4 rounded-full font-black hover:bg-red-600 hover:text-white transition-all uppercase tracking-widest text-sm">
-                Koupit
-              </button>
-            </div>
+            </a>
 
             {/* POLOŽKA 2 - Mikina */}
             <div className="bg-[#0a0c10] p-8 rounded-[3rem] border border-[#1a1d23] text-center flex flex-col items-center hover:border-red-600/50 transition-all group">
